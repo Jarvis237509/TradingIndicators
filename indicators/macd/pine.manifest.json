@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "macd",
+  "name": "MACD",
+  "description": "Moving Average Convergence Divergence",
+  "kind": "oscillator",
+  "category": "momentum",
+  "source": {
+    "type": "builtin",
+    "name": "MACD"
+  },
+  "params": {
+    "fast": 12,
+    "slow": 26,
+    "signal": 9
+  },
+  "outputs": {
+    "macd": {
+      "type": "line",
+      "name": "MACD",
+      "color": "#2196f3"
+    },
+    "signal": {
+      "type": "line",
+      "name": "Signal",
+      "color": "#ff9800"
+    },
+    "histogram": {
+      "type": "histogram",
+      "name": "Histogram",
+      "color": "#4caf50"
+    }
+  },
+  "panes": {
+    "main": false,
+    "separate": true,
+    "height": 120
+  }
+}
