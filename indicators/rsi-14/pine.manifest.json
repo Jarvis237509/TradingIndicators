@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "rsi-14",
+  "name": "RSI (14)",
+  "description": "Relative Strength Index with 14-period lookback",
+  "kind": "oscillator",
+  "category": "momentum",
+  "source": {
+    "type": "builtin",
+    "name": "RSI"
+  },
+  "params": {
+    "period": 14,
+    "overbought": 70,
+    "oversold": 30
+  },
+  "outputs": {
+    "rsi": {
+      "type": "line",
+      "name": "RSI",
+      "color": "#7e57c2"
+    }
+  },
+  "panes": {
+    "main": false,
+    "separate": true,
+    "height": 100
+  }
+}
