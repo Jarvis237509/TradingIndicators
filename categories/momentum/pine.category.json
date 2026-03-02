@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "momentum",
+  "name": "Momentum Indicators",
+  "description": "Indicators that measure the rate of change in price",
+  "indicators": [
+    "indicators/rsi-14/pine.manifest.json",
+    "indicators/macd/pine.manifest.json"
+  ]
+}
